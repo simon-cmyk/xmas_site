@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/xmas_site/static/css/main.58fb89c5.css",
+    "main.js": "/xmas_site/static/js/main.74b6bf5f.js",
+    "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
+    "static/media/16.png": "/xmas_site/static/media/16.dd713783ae60101ecefd.png",
+    "static/media/10.png": "/xmas_site/static/media/10.e2e422b2511da98ba55f.png",
+    "static/media/17.png": "/xmas_site/static/media/17.fdd0df14deb50bac5844.png",
+    "static/media/12.png": "/xmas_site/static/media/12.a9dcec33319a25441120.png",
+    "static/media/19.png": "/xmas_site/static/media/19.8845cf2cebfaf48016a4.png",
+    "static/media/15.png": "/xmas_site/static/media/15.69e5396a74284afabc6e.png",
+    "static/media/4.png": "/xmas_site/static/media/4.ddc3aeb34218bf0e794a.png",
+    "static/media/14.png": "/xmas_site/static/media/14.78684c5d9aa290dab1e1.png",
+    "static/media/20.png": "/xmas_site/static/media/20.46cc2b65d0fcbf1807b4.png",
+    "static/media/24.png": "/xmas_site/static/media/24.52fec6a731ef441cf6d5.png",
+    "static/media/9.png": "/xmas_site/static/media/9.4757b3ec8f369a243450.png",
+    "static/media/22.png": "/xmas_site/static/media/22.cbe1d238018b79065e74.png",
+    "static/media/18.png": "/xmas_site/static/media/18.273e1c1204b176ad4b8b.png",
+    "static/media/1.png": "/xmas_site/static/media/1.7db5b3e0e99b01a90c7c.png",
+    "static/media/13.png": "/xmas_site/static/media/13.81cd3036439a41aba45e.png",
+    "static/media/5.png": "/xmas_site/static/media/5.11f0b34288c2409b16d2.png",
+    "static/media/6.png": "/xmas_site/static/media/6.25a881ba4b9b9f82fc95.png",
+    "static/media/23.png": "/xmas_site/static/media/23.66e10b189e05ecaf1121.png",
+    "static/media/3.png": "/xmas_site/static/media/3.015d5562be7537730f56.png",
+    "static/media/8.png": "/xmas_site/static/media/8.2ce5925cdfe4fd3d24c5.png",
+    "static/media/11.png": "/xmas_site/static/media/11.46a842f7689481072eac.png",
+    "static/media/21.png": "/xmas_site/static/media/21.616f51643c747b56e0a3.png",
+    "static/media/2.png": "/xmas_site/static/media/2.28a2ff12cae77bc8481d.png",
+    "static/media/7.png": "/xmas_site/static/media/7.a08a23e607670d6a353e.png",
+    "index.html": "/xmas_site/index.html",
+    "main.58fb89c5.css.map": "/xmas_site/static/css/main.58fb89c5.css.map",
+    "main.74b6bf5f.js.map": "/xmas_site/static/js/main.74b6bf5f.js.map",
+    "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58fb89c5.css",
+    "static/js/main.74b6bf5f.js"
+  ]
+}
