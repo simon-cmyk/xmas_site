@@ -234,3 +234,30 @@
     left: 10px;
   }
 }
+
+@media (max-width: 490px) {
+  .calendar-square{
+    width: 60px;
+    height: 55px;
+  }
+
+  .calendar-container {
+    max-width: 350px; 
+  }
+
+  .xmas-anim {
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Adjust the size */
+    position: absolute;
+    top: 650px;
+    right: 25px;
+  }
+  
+  .cat-anim {
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Adjust the size */
+    position: absolute;
+    top: 650px;
+    left: 25px;
+  }
+}
