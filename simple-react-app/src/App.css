@@ -1,0 +1,209 @@
+.app {
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  font-family: 'Cursive', cursive;
+  font-size: 42px;
+  color: black;
+  margin-bottom: 20px;
+  position: relative;
+  animation: shimmer 2s infinite; /* Adding a subtle animation */
+}
+
+@keyframes shimmer {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title::before {
+  content: attr(data-content);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  gap: 10px;
+  margin-top: 20px;
+  margin: 35px auto; /* Adjust margin to center the container */
+  max-width: 600px; 
+}
+
+.calendar-square {
+  width: 120px;
+  height: 110px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; /* Add black border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition */
+  background-size: cover; /* Scale the image to cover the entire box */
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  opacity: 1; /* Set initial opacity to 0 */
+  border-radius: 5px;
+}
+
+.calendar-square:hover {
+  transform: scale(2); /* Scale up on hover */
+  transition-delay: 3s;
+  z-index: 1; /* Bring the hovered box to the front */
+  position: relative; /* Ensure it overlaps other boxes */
+  transition: opacity 3s, transform 3s; /* Add opacity transition */
+  color: rgb(224, 23, 23); /* Change text color when hovered */
+}
+
+.bg-image1:hover {
+  opacity: 0.7;
+  background-image: url('bg/1.png');
+}
+.bg-image2:hover  {
+  background-image: url('bg/2.png');
+  opacity: 0.8;
+}
+.bg-image3:hover {
+  background-image: url('bg/3.png');
+  opacity: 0.8;
+}
+.bg-image4:hover {
+  background-image: url('bg/4.png');
+  opacity: 0.8;
+}
+.bg-image5:hover {
+  background-image: url('bg/5.png');
+  opacity: 0.8;
+}
+.bg-image6:hover {
+  background-image: url('bg/6.png');
+  opacity: 0.8;
+}
+.bg-image7:hover {
+  background-image: url('bg/7.png');
+  opacity: 0.8;
+}
+.bg-image8:hover {
+  background-image: url('bg/8.png');
+  opacity: 0.8;
+}
+.bg-image9:hover {
+  background-image: url('bg/9.png');
+  opacity: 0.8;
+}
+.bg-image10:hover {
+  background-image: url('bg/10.png');
+  opacity: 0.8;
+}
+.bg-image11:hover {
+  background-image: url('bg/11.png');
+  opacity: 0.8;
+}
+.bg-image12:hover {
+  background-image: url('bg/12.png');
+  opacity: 0.8;
+}
+.bg-image13:hover {
+  background-image: url('bg/13.png');
+  opacity: 0.8;
+}
+.bg-image14:hover {
+  background-image: url('bg/14.png');
+  opacity: 0.8;
+}
+.bg-image15:hover {
+  background-image: url('bg/15.png');
+  opacity: 0.8;
+}
+.bg-image16:hover {
+  background-image: url('bg/16.png');
+  opacity: 0.8;
+}
+.bg-image17:hover {
+  background-image: url('bg/17.png');
+  opacity: 0.8;
+}
+.bg-image18:hover {
+  background-image: url('bg/18.png');
+  opacity: 0.8;
+}
+.bg-image19:hover {
+  background-image: url('bg/19.png');
+  opacity: 0.8;
+}
+.bg-image20:hover {
+  background-image: url('bg/20.png');
+  opacity: 0.8;
+}
+.bg-image21:hover {
+  background-image: url('bg/21.png');
+  opacity: 0.8;
+}
+.bg-image22:hover {
+  background-image: url('bg/22.png');
+  opacity: 0.8;
+}
+.bg-image23:hover {
+  background-image: url('bg/23.png');
+  opacity: 0.8;
+}
+.bg-image24:hover {
+  background-image: url('bg/24.png');
+  opacity: 0.8;
+}
+
+
+
+.xmas-anim {
+  width: 300px; /* Adjust the size */
+  height: 300px; /* Adjust the size */
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.cat-anim {
+  width: 350px; /* Adjust the size */
+  height: 350px; /* Adjust the size */
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+@media (max-width: 1300px) {
+  .xmas-anim {
+    width: 350px; /* Adjust the size */
+    height: 350px; /* Adjust the size */
+    position: absolute;
+    top: 900px;
+    right: 50px;
+  }
+  
+  .cat-anim {
+    width: 350px; /* Adjust the size */
+    height: 350px; /* Adjust the size */
+    position: absolute;
+    top: 900px;
+    left: 50px;
+  }
+}
