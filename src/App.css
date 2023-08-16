@@ -3,10 +3,15 @@
   padding: 40px;
 }
 
+body {
+  background-color: #f5f5dc;
+}
+
 .title {
   font-family: 'Cursive', cursive;
   font-size: 42px;
   color: black;
+  text-shadow: 2px 2px 4px #ffd700;
   margin-bottom: 20px;
   position: relative;
   animation: shimmer 2s infinite; /* Adding a subtle animation */
@@ -72,7 +77,7 @@
   z-index: 1; /* Bring the hovered box to the front */
   position: relative; /* Ensure it overlaps other boxes */
   transition: opacity 3s, transform 3s; /* Add opacity transition */
-  color: rgb(224, 23, 23); /* Change text color when hovered */
+  color: #e74c3c; /* Change text color when hovered */
 }
 
 .bg-image1:hover {
@@ -190,6 +195,36 @@
   left: 5%;
 }
 
+.snowflake {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  opacity: 0.7;
+  border-radius: 5PX;
+  opacity: 1;
+}
+
+.snowflake-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes snowfall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.snowflake {
+  animation: snowfall linear infinite;
+}
+
 @media (max-width: 1300px) {
   .xmas-anim {
     width: 350px; /* Adjust the size */
@@ -243,6 +278,33 @@
 
   .calendar-container {
     max-width: 350px; 
+  }
+
+  .xmas-anim {
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Adjust the size */
+    position: absolute;
+    top: 650px;
+    right: 25px;
+  }
+  
+  .cat-anim {
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Adjust the size */
+    position: absolute;
+    top: 650px;
+    left: 25px;
+  }
+}
+
+@media (max-width: 368px) {
+  .calendar-square{
+    width: 40px;
+    height: 36px;
+  }
+
+  .calendar-container {
+    max-width: 250px; 
   }
 
   .xmas-anim {

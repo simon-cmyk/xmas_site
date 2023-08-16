@@ -5,12 +5,7 @@ import xmasAnim from './xmas_anim.json';
 import catAnim from './cat_anim.json';
 
 
-
 class App extends React.Component {
-
-
-  
-
   render() {
     const daysUntilChristmas = 24;
     const calendar = [];
@@ -25,9 +20,20 @@ class App extends React.Component {
       );
     }
 
+    const numSnowflakes = 50;
+    const snowflakeContainer = document.querySelector('.snowflake-container');
+
+    for (let i = 0; i < numSnowflakes; i++) {
+      const snowflake = document.createElement('div');
+      snowflake.className = 'snowflake';
+      snowflake.style.left = `${Math.random() * 100}%`;
+      snowflake.style.animationDuration = `${Math.random() * 10 + 5}s`;
+      snowflakeContainer.appendChild(snowflake);
+    }
+
     return (
       <div className="app">
-        <h1 className='title'>Torsguttas gledelige jul</h1>
+      <h1 className='title'>Torsguttas gledelige jul</h1>
         <div className="calendar-container">{calendar}</div>
         <div
           className="xmas-anim"
@@ -38,7 +44,8 @@ class App extends React.Component {
           ref={(ref) => (this.catAnimationContainer = ref)}
         ></div>
       </div>
-    );
+
+      );
   }
   
   constructor(props) {
@@ -66,9 +73,6 @@ class App extends React.Component {
       this.animationLoaded = true; // Mark animation as loaded
     }
   }
-
 }
-
-
 
 export default App;
