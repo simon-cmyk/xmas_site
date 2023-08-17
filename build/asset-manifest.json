@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xmas_site/static/css/main.9954adb9.css",
-    "main.js": "/xmas_site/static/js/main.74b6bf5f.js",
+    "main.css": "/xmas_site/static/css/main.a88b763b.css",
+    "main.js": "/xmas_site/static/js/main.e89c69ba.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/16.png": "/xmas_site/static/media/16.dd713783ae60101ecefd.png",
     "static/media/10.png": "/xmas_site/static/media/10.e2e422b2511da98ba55f.png",
@@ -17,6 +17,7 @@
     "static/media/22.png": "/xmas_site/static/media/22.cbe1d238018b79065e74.png",
     "static/media/18.png": "/xmas_site/static/media/18.273e1c1204b176ad4b8b.png",
     "static/media/1.png": "/xmas_site/static/media/1.7db5b3e0e99b01a90c7c.png",
+    "static/media/oslo.jpg": "/xmas_site/static/media/oslo.57f453901d59e4546093.jpg",
     "static/media/13.png": "/xmas_site/static/media/13.81cd3036439a41aba45e.png",
     "static/media/5.png": "/xmas_site/static/media/5.11f0b34288c2409b16d2.png",
     "static/media/6.png": "/xmas_site/static/media/6.25a881ba4b9b9f82fc95.png",
@@ -27,13 +28,14 @@
     "static/media/21.png": "/xmas_site/static/media/21.616f51643c747b56e0a3.png",
     "static/media/2.png": "/xmas_site/static/media/2.28a2ff12cae77bc8481d.png",
     "static/media/7.png": "/xmas_site/static/media/7.a08a23e607670d6a353e.png",
+    "static/media/member.jpg": "/xmas_site/static/media/member.a9aaac8f2e39771931dc.jpg",
     "index.html": "/xmas_site/index.html",
-    "main.9954adb9.css.map": "/xmas_site/static/css/main.9954adb9.css.map",
-    "main.74b6bf5f.js.map": "/xmas_site/static/js/main.74b6bf5f.js.map",
+    "main.a88b763b.css.map": "/xmas_site/static/css/main.a88b763b.css.map",
+    "main.e89c69ba.js.map": "/xmas_site/static/js/main.e89c69ba.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9954adb9.css",
-    "static/js/main.74b6bf5f.js"
+    "static/css/main.a88b763b.css",
+    "static/js/main.e89c69ba.js"
   ]
 }

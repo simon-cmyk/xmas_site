@@ -1,78 +1,12 @@
 import React from 'react';
-import './App.css';
-import lottie from 'lottie-web';
-import xmasAnim from './xmas_anim.json';
-import catAnim from './cat_anim.json';
+import RoutElem from './RoutElem'; // Make sure the file path is correct
 
-
-class App extends React.Component {
-  render() {
-    const daysUntilChristmas = 24;
-    const calendar = [];
-
-    for (let day = 1; day <= daysUntilChristmas; day++) {
-      calendar.push(
-        <div 
-          key={day} 
-          className={`calendar-square bg-image${day}`}>
-          {day}
-        </div>
-      );
-    }
-
-    const numSnowflakes = 50;
-    const snowflakeContainer = document.querySelector('.snowflake-container');
-
-    for (let i = 0; i < numSnowflakes; i++) {
-      const snowflake = document.createElement('div');
-      snowflake.className = 'snowflake';
-      snowflake.style.left = `${Math.random() * 100}%`;
-      snowflake.style.animationDuration = `${Math.random() * 10 + 5}s`;
-      snowflakeContainer.appendChild(snowflake);
-    }
-
-    return (
-      <div className="app">
-      <h1 className='title'>Torsguttas gledelige jul</h1>
-        <div className="calendar-container">{calendar}</div>
-        <div
-          className="xmas-anim"
-          ref={(ref) => (this.santaAnimationContainer = ref)}
-        ></div>
-        <div
-          className="cat-anim"
-          ref={(ref) => (this.catAnimationContainer = ref)}
-        ></div>
-      </div>
-
-      );
-  }
-  
-  constructor(props) {
-    super(props);
-    this.animationLoaded = false; // Track whether animation is loaded
-  }
-
-  componentDidMount() {
-    if (!this.animationLoaded) {
-      lottie.loadAnimation({
-        container: this.santaAnimationContainer,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        animationData: xmasAnim,
-      });
-    
-      lottie.loadAnimation({
-        container: this.catAnimationContainer,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        animationData: catAnim,
-      });
-      this.animationLoaded = true; // Mark animation as loaded
-    }
-  }
+function App() {
+  return (
+    <div className="App">
+      <RoutElem />
+    </div>
+  );
 }
 
 export default App;
