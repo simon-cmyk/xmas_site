@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a88b763b.css",
-    "main.js": "/xmas_site/static/js/main.2b5e0cfe.js",
+    "main.js": "/xmas_site/static/js/main.e89c69ba.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/16.png": "/xmas_site/static/media/16.dd713783ae60101ecefd.png",
     "static/media/10.png": "/xmas_site/static/media/10.e2e422b2511da98ba55f.png",
@@ -30,13 +30,12 @@
     "static/media/7.png": "/xmas_site/static/media/7.a08a23e607670d6a353e.png",
     "static/media/member.jpg": "/xmas_site/static/media/member.a9aaac8f2e39771931dc.jpg",
     "index.html": "/xmas_site/index.html",
-    "static/media/models.py": "/xmas_site/static/media/models.503d89382f89a963650b.py",
     "main.a88b763b.css.map": "/xmas_site/static/css/main.a88b763b.css.map",
-    "main.2b5e0cfe.js.map": "/xmas_site/static/js/main.2b5e0cfe.js.map",
+    "main.e89c69ba.js.map": "/xmas_site/static/js/main.e89c69ba.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a88b763b.css",
-    "static/js/main.2b5e0cfe.js"
+    "static/js/main.e89c69ba.js"
   ]
 }
