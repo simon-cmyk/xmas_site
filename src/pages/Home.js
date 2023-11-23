@@ -4,6 +4,8 @@ import lottie from 'lottie-web';
 import xmasAnim from './xmas_anim.json';
 import catAnim from './cat_anim.json';
 import { Link } from 'react-router-dom';
+import Popup from './Popup'
+import england from '../images/standard_UK.gif'
 
 class Home extends React.Component {
   render() {
@@ -32,7 +34,10 @@ class Home extends React.Component {
 
     return (
       <div className="app">
-      <h1 className='title'>Torsguttas gledelige jul</h1>
+      <Popup />
+      <img src={england} alt='Translantino' width='30px'></img>
+      <h1 className='title'>Torsguttas kaneltomme jul</h1>
+     
         <div className="calendar-container">{calendar}</div>
         <div
           className="xmas-anim"
@@ -42,9 +47,9 @@ class Home extends React.Component {
           className="cat-anim"
           ref={(ref) => (this.catAnimationContainer = ref)}
         ></div>
-        <Link to="/xmas_site/member" className='back-button' >Bli kjent med Kar</Link>
+        <div className='back-button'>Bli kjent med oss under</div>
       </div>
-
+      
       );
   }
   

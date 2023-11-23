@@ -209,6 +209,17 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 
+.back-title {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #d2b48c; /* Light brown */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 .back-button:hover {
   background-color: #b09b6b; /* Slightly darker brown on hover */
 }
@@ -379,7 +390,7 @@ body {
     width: 150px; /* Adjust the size */
     height: 150px; /* Adjust the size */
     position: absolute;
-    top: 650px;
+    top: 850px;
     right: 25px;
   }
   
@@ -387,8 +398,52 @@ body {
     width: 150px; /* Adjust the size */
     height: 150px; /* Adjust the size */
     position: absolute;
-    top: 650px;
+    top: 850px;
     left: 25px;
   }
 }
 
+.sidebar {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+
+/* .info-label {
+  text-align: right;
+  margin-right: 100px; /* Adjust margin as needed */
+/* } */ 
+
+
+
+h3 {
+  color: #b09b6b;
+  opacity: .8;
+}
+
+p {
+  color: azure;
+  opacity: 0.8;
+  max-width: 700px;
+}
+
+header, .row {
+  display: flex;
+  color: #b09b6b;
+  opacity: .8;  /* aligns all child elements (flex items) in a row */
+}
+
+.col {
+  flex: 1;   
+  color: #b09b6b;
+  opacity: .8;     /* distributes space on the line equally among items */
+}
+
+section {
+  max-width: 375px;
+}
+
+a {
+  color: rgba(214, 150, 65, 0.824);
+}
