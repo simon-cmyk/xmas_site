@@ -1,9 +1,10 @@
 import '../App.css';
 import memberImage from '../images/member.jpg'; // Import your member image
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 
 function Member() {
+
   const memberInfo = {
     name: 'Kar Type God',
     appearance: 'Gammel og grå',

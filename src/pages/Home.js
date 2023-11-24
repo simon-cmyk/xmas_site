@@ -5,16 +5,18 @@ import xmasAnim from './xmas_anim.json';
 import catAnim from './cat_anim.json';
 import { Link } from 'react-router-dom';
 import Popup from './Popup'
-import england from '../images/standard_UK.gif'
 
 class Home extends React.Component {
   render() {
     const daysUntilChristmas = 24;
     const calendar = [];
+    
 
     for (let day = 1; day <= daysUntilChristmas; day++) {
+      
       calendar.push(
-        <Link to="/xmas_site/day"
+
+        <Link to={'/xmas_site/day' + day}
           className={`calendar-square bg-image${day}`}>
           {day}
         </Link>
@@ -35,7 +37,6 @@ class Home extends React.Component {
     return (
       <div className="app">
       <Popup />
-      <img src={england} alt='Translantino' width='30px'></img>
       <h1 className='title'>Torsguttas kaneltomme jul</h1>
      
         <div className="calendar-container">{calendar}</div>
@@ -47,7 +48,18 @@ class Home extends React.Component {
           className="cat-anim"
           ref={(ref) => (this.catAnimationContainer = ref)}
         ></div>
-        <div className='back-button'>Bli kjent med oss under</div>
+        <section>
+        <div class="row">
+        <Link to="/xmas_site/Surdeig" class="col" className='back-button'>Surdeig-Sverre</Link>
+        <Link to="/xmas_site/Avokado" class="col" className='back-button'>Avokado-Andreas</Link>
+        <Link to="/xmas_site/Oste" class="col" className='back-button'>Oste-OleMathias</Link>
+        </div>
+        <div class="row">
+        <Link to="/xmas_site/Maistortilla" class="col" className='back-button'>Maistortilla-Marius</Link>
+        <Link to="/xmas_site/Aure" class="col" className='back-button'>Ørret-Øystein</Link>
+        <Link to="/xmas_site/Sukker" class="col" className='back-button'>Sukker-Simon</Link>
+        </div>
+      </section>
       </div>
       
       );

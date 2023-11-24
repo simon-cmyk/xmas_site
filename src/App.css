@@ -431,18 +431,20 @@ p {
 header, .row {
   display: flex;
   color: #b09b6b;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;   
   opacity: .8;  /* aligns all child elements (flex items) in a row */
 }
 
 .col {
-  flex: 1;   
+  flex: 3;   
   color: #b09b6b;
-  opacity: .8;     /* distributes space on the line equally among items */
+  max-width: 450px;
+  opacity: 0.8; 
+  margin: 10px 10px; /* Add margin for space between columns */
 }
 
-section {
-  max-width: 375px;
-}
 
 a {
   color: rgba(214, 150, 65, 0.824);
