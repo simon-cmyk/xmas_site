@@ -44,7 +44,7 @@ function Andreas() {
           <h3>Alder: {memberInfo.age}</h3>
           <h3>Studie: {memberInfo.fieldOfStudy}</h3>
           <h3>Ofte sett: {memberInfo.civilStatus}</h3>
-          <h3>Sitet: "{memberInfo.quote}"</h3>
+          <h3>Sitat: "{memberInfo.quote}"</h3>
           <h3>Blodgivar: "{memberInfo.soda}"</h3>
   
   

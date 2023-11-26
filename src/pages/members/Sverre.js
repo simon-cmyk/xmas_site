@@ -42,8 +42,8 @@ function Sverre() {
           <h2>{memberInfo.name}</h2>
           <h3>Alder: {memberInfo.age}</h3>
           <h3>Studie: {memberInfo.fieldOfStudy}</h3>
-          <h3>Sitat: {memberInfo.civilStatus}</h3>
-          <h3>Spør han: "{memberInfo.quote}"</h3>
+          <h3>Ofte sett: {memberInfo.civilStatus}</h3>
+          <h3>Sitat: "{memberInfo.quote}"</h3>
           <h3>Hvorfor surdeig: "{memberInfo.soda}"</h3>
   
   

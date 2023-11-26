@@ -10,7 +10,7 @@ function Øystein() {
     appearance: 'Kunnskapsrik',
     age: '\\sqrt{23^2} \\cdot \\frac{\\pi^0}{0!}',
     fieldOfStudy: 'Marin typ kyb (4.klasse), ',
-    civilStatus: 'På forræder ',
+    civilStatus: 'På Campus Moholt',
     quote: "Ikkje før første desember!",
     soda: 'Gira'
   };
