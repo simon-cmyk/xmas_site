@@ -11,13 +11,22 @@ class Home extends React.Component {
     const daysUntilChristmas = 24;
     const calendar = [];
     
-
-    for (let day = 1; day <= daysUntilChristmas; day++) {
+    for (let day = 1; day <= 1; day++) {
       
       calendar.push(
 
         <Link to={'/xmas_site/day' + day}
           className={`calendar-square bg-image${day}`}>
+          {day}
+        </Link>
+      );
+    }
+    for (let day = 2; day <= daysUntilChristmas; day++) {
+      
+      calendar.push(
+
+        <Link to={'/xmas_site/day' + day}
+          className={`calendar-square bg-image${day} peekingAlert`}>
           {day}
         </Link>
       );

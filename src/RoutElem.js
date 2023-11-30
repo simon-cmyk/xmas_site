@@ -10,6 +10,7 @@ import Øystein from './pages/members/Øystein';
 import Simon from './pages/members/Simon';
 import Marius from './pages/members/Marius';
 import Sverre from './pages/members/Sverre';
+import Day1 from './pages/days/Day1';
 // import Day1 from './pages/days/Day1';
 
 function RoutElem() {
@@ -25,7 +26,7 @@ function RoutElem() {
         <Route path="xmas_site/Maistortilla" Component={Marius} />
         <Route path="xmas_site/Surdeig" Component={Sverre} />
         <Route path='xmas_site/peek' Component={Peeking} />
-        <Route path='xmas_site/Day1' Component={Peeking} /> 
+        <Route path='xmas_site/Day1' Component={Day1} /> 
         <Route path='xmas_site/Day2' Component={Peeking} /> 
         <Route path='xmas_site/Day3' Component={Peeking} /> 
         <Route path='xmas_site/Day4' Component={Peeking} /> 
