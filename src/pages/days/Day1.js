@@ -13,9 +13,9 @@ function Day1() {
     setUserChoice(choice);
     // Check if the user's choice is correct
     if (choice === correctAnswer) {
-      setResult(`Svaret var riktig, 3/4 fysmattere bor oppe og 4/5 kybbere nede ifølge Ørret-Øystein`);
+      setResult(`Svaret var riktig, 3/4 fysmattere bor oppe og 4/5 kybbere (+ 1 bygg) nede ifølge Ørret-Øystein`);
     } else {
-      setResult(`Det var dessverre feil, vi er ${correctAnswer}% sivilingeniørstudentar. 3/4 fysmattere bor oppe og 4/5 kybbere nede ifølge Ørret-Øystein`);
+      setResult(`Det var dessverre feil, vi er ${correctAnswer}% sivinger. 3/4 fysmattere bor oppe og 4/5 kybbere (+ 1 bygg) nede ifølge Ørret-Øystein`);
     }
   };
   return (
@@ -49,7 +49,7 @@ function Day1() {
           Håper at det er den einaste strykinga dei treng å gjere i år. 
         </h4><br></br>
         <h2>Apropos Tors veg 12:</h2>
-        <h2>kor høg andel sivilingeniører bor det? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2>kor høg andel sivingstudenter bor det i huset vårt? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('89')}>89%</li>
