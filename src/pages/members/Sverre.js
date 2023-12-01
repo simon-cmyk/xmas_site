@@ -7,7 +7,7 @@ function Sverre() {
   const memberInfo = {
     name: 'Surdeig-Sverre',
     appearance: 'Joggende',
-    age: 'yngst',
+    age: 'Ant yngst',
     fieldOfStudy: 'Kybernetikk og Robotikk (3.året)',
     civilStatus: 'I Betel',
     quote: 'Brooo, se her! *Viser ein gøy meme*',
