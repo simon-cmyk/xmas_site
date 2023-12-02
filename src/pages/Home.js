@@ -11,7 +11,7 @@ class Home extends React.Component {
     const daysUntilChristmas = 24;
     const calendar = [];
     
-    for (let day = 1; day <= 1; day++) {
+    for (let day = 1; day <= 2; day++) {
       
       calendar.push(
 
@@ -21,7 +21,7 @@ class Home extends React.Component {
         </Link>
       );
     }
-    for (let day = 2; day <= daysUntilChristmas; day++) {
+    for (let day = 3; day <= daysUntilChristmas; day++) {
       
       calendar.push(
 
