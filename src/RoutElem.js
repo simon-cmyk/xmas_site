@@ -12,7 +12,7 @@ import Marius from './pages/members/Marius';
 import Sverre from './pages/members/Sverre';
 import Day1 from './pages/days/Day1';
 import Day2 from './pages/days/Day2';
-// import Day3 from './pages/days/Day3';
+import Day3 from './pages/days/Day3';
 // import Day4 from './pages/days/Day4';
 // import Day5 from './pages/days/Day5';
 // import Day6 from './pages/days/Day6';
@@ -34,7 +34,7 @@ function RoutElem() {
         <Route path='xmas_site/peek' Component={Peeking} />
         <Route path='xmas_site/Day1' Component={Day1} /> 
         <Route path='xmas_site/Day2' Component={Day2} /> 
-        <Route path='xmas_site/Day3' Component={Peeking} /> 
+        <Route path='xmas_site/Day3' Component={Day3} /> 
         <Route path='xmas_site/Day4' Component={Peeking} /> 
         <Route path='xmas_site/Day5' Component={Peeking} /> 
         <Route path='xmas_site/Day6' Component={Peeking} /> 

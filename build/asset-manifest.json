@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.6bcfe0e3.css",
-    "main.js": "/xmas_site/static/js/main.a64d3b51.js",
+    "main.js": "/xmas_site/static/js/main.c98465ef.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
+    "static/media/blomster.png": "/xmas_site/static/media/blomster.0988a24d6f5753ec7e3c.png",
     "static/media/16.png": "/xmas_site/static/media/16.dd713783ae60101ecefd.png",
     "static/media/10.png": "/xmas_site/static/media/10.e2e422b2511da98ba55f.png",
     "static/media/17.png": "/xmas_site/static/media/17.fdd0df14deb50bac5844.png",
@@ -39,11 +40,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.6bcfe0e3.css.map": "/xmas_site/static/css/main.6bcfe0e3.css.map",
-    "main.a64d3b51.js.map": "/xmas_site/static/js/main.a64d3b51.js.map",
+    "main.c98465ef.js.map": "/xmas_site/static/js/main.c98465ef.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bcfe0e3.css",
-    "static/js/main.a64d3b51.js"
+    "static/js/main.c98465ef.js"
   ]
 }
