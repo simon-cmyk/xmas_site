@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.6bcfe0e3.css",
-    "main.js": "/xmas_site/static/js/main.422d1d98.js",
+    "main.js": "/xmas_site/static/js/main.fbeb3a72.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/ribbe.png": "/xmas_site/static/media/ribbe.5221f8afa75e3de29f14.png",
@@ -42,11 +42,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.6bcfe0e3.css.map": "/xmas_site/static/css/main.6bcfe0e3.css.map",
-    "main.422d1d98.js.map": "/xmas_site/static/js/main.422d1d98.js.map",
+    "main.fbeb3a72.js.map": "/xmas_site/static/js/main.fbeb3a72.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bcfe0e3.css",
-    "static/js/main.422d1d98.js"
+    "static/js/main.fbeb3a72.js"
   ]
 }
