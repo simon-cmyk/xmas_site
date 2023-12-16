@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a0238208.css",
-    "main.js": "/xmas_site/static/js/main.d4047c73.js",
+    "main.js": "/xmas_site/static/js/main.330925c6.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/Bynesveien_b_bakside.png": "/xmas_site/static/media/Bynesveien_b_bakside.a319d987fff3605fa8bf.png",
@@ -34,15 +34,28 @@
     "static/media/6.png": "/xmas_site/static/media/6.25a881ba4b9b9f82fc95.png",
     "static/media/23.png": "/xmas_site/static/media/23.66e10b189e05ecaf1121.png",
     "static/media/julebokk.jpg": "/xmas_site/static/media/julebokk.45444b391be17400bff2.jpg",
+    "static/media/5.jpg": "/xmas_site/static/media/5.69eadc0e6032d4b44fca.jpg",
+    "static/media/2.jpg": "/xmas_site/static/media/2.1d053f0ed82a233fe2aa.jpg",
+    "static/media/8.jpg": "/xmas_site/static/media/8.9d3f5eebe48edcc08b5c.jpg",
     "static/media/3.png": "/xmas_site/static/media/3.015d5562be7537730f56.png",
     "static/media/8.png": "/xmas_site/static/media/8.2ce5925cdfe4fd3d24c5.png",
+    "static/media/6.jpg": "/xmas_site/static/media/6.473596fe97ac86917a77.jpg",
     "static/media/11.png": "/xmas_site/static/media/11.46a842f7689481072eac.png",
     "static/media/21.png": "/xmas_site/static/media/21.616f51643c747b56e0a3.png",
+    "static/media/7.jpg": "/xmas_site/static/media/7.06e2e4eb1173a4870e11.jpg",
+    "static/media/9.jpg": "/xmas_site/static/media/9.d8a3e33c90231c9f1ee4.jpg",
     "static/media/2.png": "/xmas_site/static/media/2.28a2ff12cae77bc8481d.png",
+    "static/media/10.jpg": "/xmas_site/static/media/10.8e13f3ac16ef580f01dd.jpg",
+    "static/media/11.jpg": "/xmas_site/static/media/11.75478b9e39e496165502.jpg",
+    "static/media/12.jpg": "/xmas_site/static/media/12.099f78da8a4546047ab7.jpg",
     "static/media/blomsterbarna.jpg": "/xmas_site/static/media/blomsterbarna.845f12f878f220e7bacb.jpg",
+    "static/media/1.jpg": "/xmas_site/static/media/1.24c159eff1bd064b28f8.jpg",
+    "static/media/4.jpg": "/xmas_site/static/media/4.5617e4caeba8db0fd5d1.jpg",
     "static/media/Friggs.jpg": "/xmas_site/static/media/Friggs.94a1fb593e117bc736d7.jpg",
     "static/media/7.png": "/xmas_site/static/media/7.a08a23e607670d6a353e.png",
     "static/media/cinnamon.jpeg": "/xmas_site/static/media/cinnamon.f22bef7cd78b86cc7e69.jpeg",
+    "static/media/3.jpg": "/xmas_site/static/media/3.7ef0f394afc5de856a79.jpg",
+    "static/media/olejohn.jpg": "/xmas_site/static/media/olejohn.87d0ee743002bacc2054.jpg",
     "static/media/klara.avif": "/xmas_site/static/media/klara.6fb05dabf8ded9c2467d.avif",
     "static/media/God.jpg": "/xmas_site/static/media/God.3de345520f1e9cc8a40e.jpg",
     "static/media/sverre.jpeg": "/xmas_site/static/media/sverre.5fb42087401911344422.jpeg",
@@ -53,11 +66,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.a0238208.css.map": "/xmas_site/static/css/main.a0238208.css.map",
-    "main.d4047c73.js.map": "/xmas_site/static/js/main.d4047c73.js.map",
+    "main.330925c6.js.map": "/xmas_site/static/js/main.330925c6.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0238208.css",
-    "static/js/main.d4047c73.js"
+    "static/js/main.330925c6.js"
   ]
 }
