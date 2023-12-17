@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a0238208.css",
-    "main.js": "/xmas_site/static/js/main.330925c6.js",
+    "main.js": "/xmas_site/static/js/main.09b2a2e6.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/Bynesveien_b_bakside.png": "/xmas_site/static/media/Bynesveien_b_bakside.a319d987fff3605fa8bf.png",
@@ -28,6 +28,7 @@
     "static/media/22.png": "/xmas_site/static/media/22.cbe1d238018b79065e74.png",
     "static/media/18.png": "/xmas_site/static/media/18.273e1c1204b176ad4b8b.png",
     "static/media/1.png": "/xmas_site/static/media/1.7db5b3e0e99b01a90c7c.png",
+    "static/media/nye.jpg": "/xmas_site/static/media/nye.051a8f5f6390c5bdb3da.jpg",
     "static/media/13.png": "/xmas_site/static/media/13.81cd3036439a41aba45e.png",
     "static/media/5.png": "/xmas_site/static/media/5.11f0b34288c2409b16d2.png",
     "static/media/svingen.jpg": "/xmas_site/static/media/svingen.c5979de8361975036448.jpg",
@@ -66,11 +67,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.a0238208.css.map": "/xmas_site/static/css/main.a0238208.css.map",
-    "main.330925c6.js.map": "/xmas_site/static/js/main.330925c6.js.map",
+    "main.09b2a2e6.js.map": "/xmas_site/static/js/main.09b2a2e6.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0238208.css",
-    "static/js/main.330925c6.js"
+    "static/js/main.09b2a2e6.js"
   ]
 }
