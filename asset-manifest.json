@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a0238208.css",
-    "main.js": "/xmas_site/static/js/main.aee68dcc.js",
+    "main.js": "/xmas_site/static/js/main.0c7e58b3.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/Bynesveien_b_bakside.png": "/xmas_site/static/media/Bynesveien_b_bakside.a319d987fff3605fa8bf.png",
@@ -9,6 +9,7 @@
     "static/media/Lillemor.png": "/xmas_site/static/media/Lillemor.87f3de516857bfcb2c7c.png",
     "static/media/Julekort_Silas_v3.png": "/xmas_site/static/media/Julekort_Silas_v3.6997d3fc4039f28a1436.png",
     "static/media/blomster.png": "/xmas_site/static/media/blomster.0988a24d6f5753ec7e3c.png",
+    "static/media/Bagler.jpg": "/xmas_site/static/media/Bagler.70fe1bd6fcb85c7d1b82.jpg",
     "static/media/ny-koselig.jpeg": "/xmas_site/static/media/ny-koselig.9624acf048d0d2af0f86.jpeg",
     "static/media/16.png": "/xmas_site/static/media/16.dd713783ae60101ecefd.png",
     "static/media/final_draft.jpg": "/xmas_site/static/media/final_draft.dc58317001355e3d2ab2.jpg",
@@ -68,11 +69,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.a0238208.css.map": "/xmas_site/static/css/main.a0238208.css.map",
-    "main.aee68dcc.js.map": "/xmas_site/static/js/main.aee68dcc.js.map",
+    "main.0c7e58b3.js.map": "/xmas_site/static/js/main.0c7e58b3.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0238208.css",
-    "static/js/main.aee68dcc.js"
+    "static/js/main.0c7e58b3.js"
   ]
 }
