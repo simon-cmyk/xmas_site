@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a0238208.css",
-    "main.js": "/xmas_site/static/js/main.dd1c1a63.js",
+    "main.js": "/xmas_site/static/js/main.1b1bb244.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/Bynesveien_b_bakside.png": "/xmas_site/static/media/Bynesveien_b_bakside.a319d987fff3605fa8bf.png",
@@ -63,6 +63,7 @@
     "static/media/klara.avif": "/xmas_site/static/media/klara.6fb05dabf8ded9c2467d.avif",
     "static/media/God.jpg": "/xmas_site/static/media/God.3de345520f1e9cc8a40e.jpg",
     "static/media/sverre.jpeg": "/xmas_site/static/media/sverre.5fb42087401911344422.jpeg",
+    "static/media/båt.jpeg": "/xmas_site/static/media/båt.52355835397b0cd96cff.jpeg",
     "static/media/simon.jpeg": "/xmas_site/static/media/simon.0154b386a33079cd0e6a.jpeg",
     "static/media/øystein.jpeg": "/xmas_site/static/media/øystein.0fc36f20a783af1a0cf6.jpeg",
     "static/media/marius.jpeg": "/xmas_site/static/media/marius.fec73e84d77f0b9207ed.jpeg",
@@ -70,11 +71,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.a0238208.css.map": "/xmas_site/static/css/main.a0238208.css.map",
-    "main.dd1c1a63.js.map": "/xmas_site/static/js/main.dd1c1a63.js.map",
+    "main.1b1bb244.js.map": "/xmas_site/static/js/main.1b1bb244.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0238208.css",
-    "static/js/main.dd1c1a63.js"
+    "static/js/main.1b1bb244.js"
   ]
 }
