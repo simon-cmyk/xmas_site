@@ -13,6 +13,11 @@ import Sverre from './pages/members/Sverre';
 import Day1 from './pages/days/Day1';
 import Day2 from './pages/days/Day2';
 import Day3 from './pages/days/Day3';
+import Day4 from './pages/days/Day4';
+import Day5 from './pages/days/Day5';
+import Day6 from './pages/days/Day6';
+import Day7 from './pages/days/Day7';
+import Day8 from './pages/days/Day8';
 // import Day4 from './pages/days/Day4';
 // import Day5 from './pages/days/Day5';
 // import Day6 from './pages/days/Day6';
@@ -35,11 +40,11 @@ function RoutElem() {
         <Route path='xmas_site/Day1' Component={Day1} /> 
         <Route path='xmas_site/Day2' Component={Day2} /> 
         <Route path='xmas_site/Day3' Component={Day3} /> 
-        <Route path='xmas_site/Day4' Component={Peeking} /> 
-        <Route path='xmas_site/Day5' Component={Peeking} /> 
-        <Route path='xmas_site/Day6' Component={Peeking} /> 
-        <Route path='xmas_site/Day7' Component={Peeking} /> 
-        <Route path='xmas_site/Day8' Component={Peeking} /> 
+        <Route path='xmas_site/Day4' Component={Day4} /> 
+        <Route path='xmas_site/Day5' Component={Day5} /> 
+        <Route path='xmas_site/Day6' Component={Day6} /> 
+        <Route path='xmas_site/Day7' Component={Day7} /> 
+        <Route path='xmas_site/Day8' Component={Day8} /> 
         <Route path='xmas_site/Day9' Component={Peeking} /> 
         <Route path='xmas_site/Day10' Component={Peeking} /> 
         <Route path='xmas_site/Day11' Component={Peeking} /> 

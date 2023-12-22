@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import julekort from '../../images/blomster.png'; 
 import React, { useState } from 'react';
 
-function Day2() {
+function Day3() {
   const [userChoice, setUserChoice] = useState('');
   const [result, setResult] = useState('');
 
@@ -45,7 +45,7 @@ function Day2() {
       </h4>
         <h4>
         No klarte ikkje Sukker-Simon holde ut lenger, og med eit var det kjent, det som alle tenkte på. 
-        Var det dokke som tok kanelen vår? BlomsterBrødrene såg fram og tilbake på kvarandre. Etter ei lita pause kom det eit nei fra Håkon.
+        Var det dokke som tok kanelen vår? BlomsterBrødrene såg fram og tilbake på kvarandre. Etter ei lita pause kom det eit nei fra Hawaiiburger-Håkon.
         Då vart alle letta, og dei tok til å spille diskgolf. Det vart ein fin dag med masse latter og ablegøyer. Kven som vann det treng vi ikkje nevne...
         Men han var ein torsgutt :D
         </h4><br></br>
@@ -66,4 +66,4 @@ function Day2() {
   );
 }
 
-export default Day2;
+export default Day3;
