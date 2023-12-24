@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xmas_site/static/css/main.a0238208.css",
-    "main.js": "/xmas_site/static/js/main.07808c62.js",
+    "main.js": "/xmas_site/static/js/main.95fadff0.js",
     "static/js/787.03d3125c.chunk.js": "/xmas_site/static/js/787.03d3125c.chunk.js",
     "static/media/Fra Tornardos.png": "/xmas_site/static/media/Fra Tornardos.8f2bf4549b0babcbdce7.png",
     "static/media/Bynesveien_b_bakside.png": "/xmas_site/static/media/Bynesveien_b_bakside.a319d987fff3605fa8bf.png",
@@ -17,8 +17,12 @@
     "static/media/17.png": "/xmas_site/static/media/17.fdd0df14deb50bac5844.png",
     "static/media/12.png": "/xmas_site/static/media/12.a9dcec33319a25441120.png",
     "static/media/19.png": "/xmas_site/static/media/19.8845cf2cebfaf48016a4.png",
+    "static/media/skog.png": "/xmas_site/static/media/skog.9f21939e2352eefd86fd.png",
     "static/media/berg.jpeg": "/xmas_site/static/media/berg.fcebb009ac6872477eba.jpeg",
+    "static/media/j23.png": "/xmas_site/static/media/j23.33c0b8cfb42ee2bf2bbf.png",
     "static/media/Bynesveien_a_forside.jpg": "/xmas_site/static/media/Bynesveien_a_forside.fa61e6b33080873a2f4c.jpg",
+    "static/media/arild.png": "/xmas_site/static/media/arild.b09915f8b51b4647a614.png",
+    "static/media/KORTendelig.png": "/xmas_site/static/media/KORTendelig.2fdd0dcf6adcaa52337c.png",
     "static/media/15.png": "/xmas_site/static/media/15.69e5396a74284afabc6e.png",
     "static/media/osten.jpeg": "/xmas_site/static/media/osten.30d5f2b8c8bc7fb2917c.jpeg",
     "static/media/gjengen.jpg": "/xmas_site/static/media/gjengen.cb254ea05ad92494f725.jpg",
@@ -28,6 +32,7 @@
     "static/media/obs.png": "/xmas_site/static/media/obs.981b60cada3938bd6f54.png",
     "static/media/20.png": "/xmas_site/static/media/20.46cc2b65d0fcbf1807b4.png",
     "static/media/24.png": "/xmas_site/static/media/24.52fec6a731ef441cf6d5.png",
+    "static/media/ferd.png": "/xmas_site/static/media/ferd.8deabafba2158cb3e5ce.png",
     "static/media/9.png": "/xmas_site/static/media/9.4757b3ec8f369a243450.png",
     "static/media/22.png": "/xmas_site/static/media/22.cbe1d238018b79065e74.png",
     "static/media/18.png": "/xmas_site/static/media/18.273e1c1204b176ad4b8b.png",
@@ -54,11 +59,17 @@
     "static/media/10.jpg": "/xmas_site/static/media/10.8e13f3ac16ef580f01dd.jpg",
     "static/media/11.jpg": "/xmas_site/static/media/11.75478b9e39e496165502.jpg",
     "static/media/12.jpg": "/xmas_site/static/media/12.099f78da8a4546047ab7.jpg",
+    "static/media/ab.jpg": "/xmas_site/static/media/ab.3a6fe4851a72ce18d0b2.jpg",
+    "static/media/Julekort2023.jpg": "/xmas_site/static/media/Julekort2023.543b7d8c0dee386cfea9.jpg",
+    "static/media/trd.jpg": "/xmas_site/static/media/trd.e1fd2e612bffc3c5522a.jpg",
     "static/media/blomsterbarna.jpg": "/xmas_site/static/media/blomsterbarna.845f12f878f220e7bacb.jpg",
     "static/media/1.jpg": "/xmas_site/static/media/1.24c159eff1bd064b28f8.jpg",
     "static/media/4.jpg": "/xmas_site/static/media/4.5617e4caeba8db0fd5d1.jpg",
     "static/media/Friggs.jpg": "/xmas_site/static/media/Friggs.94a1fb593e117bc736d7.jpg",
+    "static/media/sha.JPG": "/xmas_site/static/media/sha.116c694505e36f639078.JPG",
     "static/media/7.png": "/xmas_site/static/media/7.a08a23e607670d6a353e.png",
+    "static/media/andysurf.jpg": "/xmas_site/static/media/andysurf.1ac5876c955a7284becd.jpg",
+    "static/media/inbound.jpg": "/xmas_site/static/media/inbound.39399e7a95d51e1a8b4b.jpg",
     "static/media/cinnamon.jpeg": "/xmas_site/static/media/cinnamon.f22bef7cd78b86cc7e69.jpeg",
     "static/media/3.jpg": "/xmas_site/static/media/3.7ef0f394afc5de856a79.jpg",
     "static/media/olejohn.jpg": "/xmas_site/static/media/olejohn.87d0ee743002bacc2054.jpg",
@@ -73,11 +84,11 @@
     "static/media/andreas.jpeg": "/xmas_site/static/media/andreas.2d197286b75cdc3ad8ab.jpeg",
     "index.html": "/xmas_site/index.html",
     "main.a0238208.css.map": "/xmas_site/static/css/main.a0238208.css.map",
-    "main.07808c62.js.map": "/xmas_site/static/js/main.07808c62.js.map",
+    "main.95fadff0.js.map": "/xmas_site/static/js/main.95fadff0.js.map",
     "787.03d3125c.chunk.js.map": "/xmas_site/static/js/787.03d3125c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0238208.css",
-    "static/js/main.07808c62.js"
+    "static/js/main.95fadff0.js"
   ]
 }
