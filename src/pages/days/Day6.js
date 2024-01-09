@@ -51,7 +51,7 @@ function Day6() {
         Gutta var sjokkerte, og sinte. 
         </h4>
         <h2>Apropos Leif Tronstad</h2>
-        <h2> Kven var han? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2> Kven var han? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('rett')}>Kjemiker og Professor ved NTH</li>
@@ -62,7 +62,15 @@ function Day6() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day5'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day7'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

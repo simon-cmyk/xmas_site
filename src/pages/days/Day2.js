@@ -49,7 +49,7 @@ function Day2() {
         Det var kanskje ikkje så rart at Sitron-Sven hadde smilt så lurt på julefesten igår ... ?  
         </h4><br></br>
         <h2>Apropos Friggs veg 4:</h2>
-        <h2>Kva har dei ikkje i huset sitt? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2>Kva har dei ikkje i huset sitt? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('broderiet')}>Eit upassande broderi</li>
@@ -60,7 +60,15 @@ function Day2() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day1'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day3'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

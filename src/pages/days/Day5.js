@@ -51,7 +51,7 @@ function Day5() {
         ...  
         </h4>
         <h2>Apropos Berg:</h2>
-        <h2> Kven eig "Berg prestegård"? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2> Kven eig "Berg prestegård"? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('laget')}>Laget</li>
@@ -62,7 +62,15 @@ function Day5() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day4'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day6'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

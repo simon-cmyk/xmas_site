@@ -49,7 +49,7 @@ function Day1() {
           Håper at det er den einaste strykinga dei treng å gjere i år. 
         </h4><br></br>
         <h2>Apropos Tors veg 12:</h2>
-        <h2>kor høg andel sivingstudenter bor det i huset vårt? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2>kor høg andel sivingstudenter bor det i huset vårt? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('89')}>89%</li>
@@ -61,6 +61,10 @@ function Day1() {
       </div>
     </div>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day2'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

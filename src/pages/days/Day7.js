@@ -47,7 +47,7 @@ function Day7() {
        Sukker-Simon kom tilbake til gruppa, men alle Torsgutta måtte straks dra heim igjen, siden gjengen i Paul si gate skulle på kveldskjøring i Vassfjellet.
         </h4>
         <h2>Apropos Kameler</h2>
-        <h2> Kor mykje vann kan dei drikke på 10 minutter? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2> Kor mykje vann kan dei drikke på 10 minutter? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('34')}>34 Liter</li>
@@ -58,7 +58,15 @@ function Day7() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day6'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day8'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

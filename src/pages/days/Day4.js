@@ -51,7 +51,7 @@ function Day4() {
             Som om dette ikkje var nok, tok det jammen meg til å brenne i den vesle leiligheita. "Ribba vår", hylte Torske-Trygve. "Det herre blir itt rare greian, kom dokk hjem"  
         </h4>
         <h2>Apropos Trøndere:</h2>
-        <h2> hva betyr "Råsslagadaill"? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2> hva betyr "Råsslagadaill"? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('storkar')}>En storkar</li>
@@ -62,7 +62,15 @@ function Day4() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day3'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day5'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }

@@ -18,11 +18,22 @@ import Day5 from './pages/days/Day5';
 import Day6 from './pages/days/Day6';
 import Day7 from './pages/days/Day7';
 import Day8 from './pages/days/Day8';
-// import Day4 from './pages/days/Day4';
-// import Day5 from './pages/days/Day5';
-// import Day6 from './pages/days/Day6';
-// import Day7 from './pages/days/Day7';
-// import Day8 from './pages/days/Day8';
+import Day9 from './pages/days/Day9';
+import Day10 from './pages/days/Day10';
+import Day11 from './pages/days/Day11';
+import Day12 from './pages/days/Day12';
+import Day13 from './pages/days/Day13';
+import Day14 from './pages/days/Day14';
+import Day15 from './pages/days/Day15';
+import Day16 from './pages/days/Day16';
+import Day17 from './pages/days/Day17';
+import Day18 from './pages/days/Day18';
+import Day19 from './pages/days/Day19';
+import Day20 from './pages/days/Day20';
+import Day21 from './pages/days/Day21';
+import Day22 from './pages/days/Day22';
+import Day23 from './pages/days/Day23';
+import Day24 from './pages/days/Day24';
 
 function RoutElem() {
   return (
@@ -45,22 +56,22 @@ function RoutElem() {
         <Route path='xmas_site/Day6' Component={Day6} /> 
         <Route path='xmas_site/Day7' Component={Day7} /> 
         <Route path='xmas_site/Day8' Component={Day8} /> 
-        <Route path='xmas_site/Day9' Component={Peeking} /> 
-        <Route path='xmas_site/Day10' Component={Peeking} /> 
-        <Route path='xmas_site/Day11' Component={Peeking} /> 
-        <Route path='xmas_site/Day12' Component={Peeking} /> 
-        <Route path='xmas_site/Day13' Component={Peeking} /> 
-        <Route path='xmas_site/Day14' Component={Peeking} /> 
-        <Route path='xmas_site/Day15' Component={Peeking} /> 
-        <Route path='xmas_site/Day16' Component={Peeking} /> 
-        <Route path='xmas_site/Day17' Component={Peeking} /> 
-        <Route path='xmas_site/Day18' Component={Peeking} /> 
-        <Route path='xmas_site/Day19' Component={Peeking} /> 
-        <Route path='xmas_site/Day20' Component={Peeking} /> 
-        <Route path='xmas_site/Day21' Component={Peeking} /> 
-        <Route path='xmas_site/Day22' Component={Peeking} /> 
-        <Route path='xmas_site/Day23' Component={Peeking} /> 
-        <Route path='xmas_site/Day24' Component={Peeking} /> 
+        <Route path='xmas_site/Day9' Component={Day9} /> 
+        <Route path='xmas_site/Day10' Component={Day10} /> 
+        <Route path='xmas_site/Day11' Component={Day11} /> 
+        <Route path='xmas_site/Day12' Component={Day12} /> 
+        <Route path='xmas_site/Day13' Component={Day13} /> 
+        <Route path='xmas_site/Day14' Component={Day14} /> 
+        <Route path='xmas_site/Day15' Component={Day15} /> 
+        <Route path='xmas_site/Day16' Component={Day16} /> 
+        <Route path='xmas_site/Day17' Component={Day17} /> 
+        <Route path='xmas_site/Day18' Component={Day18} /> 
+        <Route path='xmas_site/Day19' Component={Day19} /> 
+        <Route path='xmas_site/Day20' Component={Day20} /> 
+        <Route path='xmas_site/Day21' Component={Day21} /> 
+        <Route path='xmas_site/Day22' Component={Day22} /> 
+        <Route path='xmas_site/Day23' Component={Day23} /> 
+        <Route path='xmas_site/Day24' Component={Day24} /> 
         <Route path="*" Component={NotFound} />
       </Routes>
     </Router>

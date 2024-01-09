@@ -50,7 +50,7 @@ function Day3() {
         Men han var ein torsgutt :D
         </h4><br></br>
         <h2>Apropos Blomsterbrødrene:</h2>
-        <h2>Hvilken folkehøyskole har dette kollektivet opprinelig rot i? Velg ein av alternativa under, og klikk på den du trur er riktig</h2>
+        <h2>Hvilken folkehøyskole har dette kollektivet opprinelig rot i? Velg eit av alternativa under, og klikk på den du trur er riktig</h2>
         <h2>Alternativer:</h2>
         <ul>
           <li onClick={() => handleChoice('Nordfjord')}>Nordfjord fhs</li>
@@ -61,7 +61,15 @@ function Day3() {
         {result && <h3>{result}</h3>}
       </div>
     </div>
+    <Link to={'/xmas_site/day2'}
+          className={`swapday`}>
+          {"< Forrige"}
+        </Link>
     <Link to="/xmas_site/" className='back-button' >Tilbage te heimesio</Link>
+    <Link to={'/xmas_site/day4'}
+          className={`swapday`}>
+          {"Neste >"}
+        </Link>
     </div>
   );
 }
